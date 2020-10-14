@@ -1,13 +1,13 @@
-<h1 align="center">hello-npm-library 👓</h1>
-<p align="center">
-    <img src="https://img.shields.io/badge/made%20by-mehmetcangulesci-blue.svg" >
-    <img src="https://img.shields.io/github/license/mehmetcangulesci/hello-npm-library" />
-    <img src="https://img.shields.io/github/languages/top/mehmetcangulesci/hello-npm-library">
-    <img src="https://img.shields.io/github/workflow/status/mehmetcangulesci/hello-npm-library/Node.js Package?event=push" />
-    <img src="https://img.shields.io/github/package-json/v/mehmetcangulesci/hello-npm-library" />
-    <img src="https://img.shields.io/github/last-commit/mehmetcangulesci/hello-npm-library/main" />
-    <img src="https://img.shields.io/github/languages/code-size/mehmetcangulesci/hello-npm-library" />
-</p>
+<div align="center">
+      <h1>hello-npm-library 👓</h1>
+      <img src="https://img.shields.io/badge/made%20by-mehmetcangulesci-blue.svg" >
+      <img src="https://img.shields.io/github/license/mehmetcangulesci/hello-npm-library" />
+      <img src="https://img.shields.io/github/languages/top/mehmetcangulesci/hello-npm-library">
+      <img src="https://img.shields.io/github/workflow/status/mehmetcangulesci/hello-npm-library/Node.js Package?event=push" />
+      <img src="https://img.shields.io/github/package-json/v/mehmetcangulesci/hello-npm-library" />
+      <img src="https://img.shields.io/github/last-commit/mehmetcangulesci/hello-npm-library/main" />
+      <img src="https://img.shields.io/github/languages/code-size/mehmetcangulesci/hello-npm-library" />
+</div>
 
 ## Description
 This is tell us how to use private libraries in personal need or organizational level, written in Javascript, have been created with [GitHub Package Registry](https://github.com/features/packages) and [GitHub Actions](https://github.com/features/actions).
