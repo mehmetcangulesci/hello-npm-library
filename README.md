@@ -10,8 +10,6 @@
 [last_commit]:https://img.shields.io/github/last-commit/mehmetcangulesci/hello-npm-library/main
 [code_size]:https://img.shields.io/github/languages/code-size/mehmetcangulesci/hello-npm-library
 
-
-
 ## Description
 
 This is tell us how to use private libraries in personal need or organizational level, written in Javascript, have been created with [GitHub Package Registry](https://github.com/features/packages) and [GitHub Actions](https://github.com/features/actions).
@@ -21,6 +19,16 @@ GitHub Package Registry is used for package registry and GitHub Actions are used
 
 ### Install
 
+Before installing below rules must be followed:
+
+1. Create Personal Access Token in GitHub User Developer settings.
+2. Under the repo settings create new secret named ```NPM_TOKEN``` (you can give any name, but must ensure consistency with other codes) and give Personal Access Token value created previous step. 
+3. You must have ```.npmrc``` file in current directory which has following lines.
+
+```bash
+//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
+registry=https://npm.pkg.github.com/mehmetcangulesci
+```
 ```bash
 # Specific Version 
 npm install @mehmetcangulesci/hello-npm-library@1.0.0
