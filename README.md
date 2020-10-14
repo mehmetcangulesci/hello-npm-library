@@ -1,4 +1,4 @@
-<center><h1>hello-npm-library 👓</h1></center>
+<h1 align="center">hello-npm-library 👓</h1>
 <p align="center">
     <img src="https://img.shields.io/badge/made%20by-mehmetcangulesci-blue.svg" >
     <img src="https://img.shields.io/github/license/mehmetcangulesci/hello-npm-library" />
