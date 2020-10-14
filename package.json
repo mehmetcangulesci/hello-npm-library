@@ -1,0 +1,14 @@
+{
+  "name": "@mehmetcangulesci/hello-npm-library",
+  "version": "1.0.0",
+  "description": "hello library",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehmetcan Güleşçi",
+  "repository": {
+    "url": "git://github.com/mehmetcangulesci/hello-npm-library.git"
+  },
+  "license": "MIT"
+}

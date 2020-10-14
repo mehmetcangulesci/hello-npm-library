@@ -1,0 +1,26 @@
+name: Node.js Package
+on:
+   push:
+     paths:
+     - 'src/**'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]    
+    steps:
+      - name: Get Codes
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: https://registry.npmjs.org/
+      - name: Replace auth token and run ci, publish commands
+        run: |
+          npm config set //npm.pkg.github.com/:_authToken $NPM_TOKEN
+          npm ci
+          npm publish          
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
