@@ -1,0 +1,24 @@
+{
+projectName: "hello-npm-library",
+projectOwner: "mehmetcangulesci",
+files: [
+"README.md"
+],
+imageSize: 100,
+contributors: [
+{
+login: "mehmetcangulesci",
+name: "Mehmetcan Gulesci",
+avatar_url: "https://avatars2.githubusercontent.com/u/17083968",
+profile: "https://mehmetcangulesci.com",
+contributions: [
+"development"
+],
+}
+],
+repoType: "github",
+contributorsPerLine: 7,
+repoHost: "https://github.com",
+commitConvention: "x",
+skipCi: true,
+}
