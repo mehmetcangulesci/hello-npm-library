@@ -17,13 +17,13 @@ GitHub Package Registry is used for package registry and GitHub Actions are used
 
 ## Setup
 
-### Install
-
 Before installing below rules must be followed:
 
 1. Create Personal Access Token in GitHub User Developer settings.
 2. Under the repo settings create new secret named ```NPM_TOKEN``` (you can give any name, but must ensure consistency with other codes) and give Personal Access Token value created previous step. 
 3. You must have ```.npmrc``` file in current directory which has following lines.
+
+### Install
 
 ```bash
 //npm.pkg.github.com/:_authToken=${NPM_TOKEN}
