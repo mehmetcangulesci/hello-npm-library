@@ -23,12 +23,13 @@ Before installing below rules must be followed:
 2. Under the repo settings create new secret named ```NPM_TOKEN``` (you can give any name, but must ensure consistency with other codes) and give Personal Access Token value created previous step. 
 3. You must have ```.npmrc``` file in current directory which has following lines.
 
-### Install
-
 ```bash
 //npm.pkg.github.com/:_authToken=${NPM_TOKEN}
 registry=https://npm.pkg.github.com/mehmetcangulesci
 ```
+
+### Install
+
 ```bash
 # Specific Version 
 npm install @mehmetcangulesci/hello-npm-library@1.0.0
