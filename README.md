@@ -1,4 +1,4 @@
-<img src="https://mehmetcangulesci.com/ss.png" alt="Kitten" title="A cute kitten" width="300" height="80" />
+<p style="text-align: center"><img src="https://mehmetcangulesci.com/ss.png" width="300" height="80" /></p>
 
 ![user] ![licence]  ![code_language] ![build] ![version]  ![last_commit]  ![code_size]
 
