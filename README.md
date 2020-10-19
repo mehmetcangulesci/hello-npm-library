@@ -1,13 +1,21 @@
 # hello-npm-library 👓
+[![user][user_img]][user_url] [![licence][licence_img]][licence_url]  [![build][build_img]][build_url]  ![code_language] ![version] ![last_commit] ![code_size]
 
-![user] ![licence]  ![code_language] ![build] ![version]  ![last_commit]  ![code_size]
+[user_img]:https://img.shields.io/badge/made%20by-mehmetcangulesci-blue.svg
+[user_url]:https://github.com/mehmetcangulesci
 
-[user]:https://img.shields.io/badge/made%20by-mehmetcangulesci-blue.svg
-[licence]:https://img.shields.io/github/license/mehmetcangulesci/hello-npm-library
+[licence_img]:https://img.shields.io/github/license/mehmetcangulesci/hello-npm-library
+[licence_url]:https://github.com/mehmetcangulesci/hello-npm-library/blob/main/LICENSE
+
 [code_language]:https://img.shields.io/github/languages/top/mehmetcangulesci/hello-npm-library
-[build]:https://img.shields.io/github/workflow/status/mehmetcangulesci/hello-npm-library/Node.js%20Package?event=push
+
+[build_img]:https://github.com/mehmetcangulesci/hello-npm-library/workflows/Node.js%20Package/badge.svg
+[build_url]:https://github.com/mehmetcangulesci/hello-npm-library/actions
+
 [version]:https://img.shields.io/github/package-json/v/mehmetcangulesci/hello-npm-library
+
 [last_commit]:https://img.shields.io/github/last-commit/mehmetcangulesci/hello-npm-library/main
+
 [code_size]:https://img.shields.io/github/languages/code-size/mehmetcangulesci/hello-npm-library
 
 ## Description
