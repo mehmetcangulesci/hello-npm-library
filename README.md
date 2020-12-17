@@ -37,7 +37,7 @@ registry=https://npm.pkg.github.com/mehmetcangulesci
 ```
 
 ### Install
-
+#### From the command line
 ```bash
 # Specific Version 
 npm install @mehmetcangulesci/hello-npm-library@1.0.0
@@ -45,6 +45,20 @@ npm install @mehmetcangulesci/hello-npm-library@1.0.0
 ```bash
 # Latest Version 
 npm install @mehmetcangulesci/hello-npm-library@latest
+```
+
+#### Via package.json
+##### ***Specific Version***
+```json
+{
+   "@mehmetcangulesci/hello-npm-library": "1.0.1" 
+}
+```
+##### ***Latest Version*** 
+```json
+{
+   "@mehmetcangulesci/hello-npm-library": "*"
+}
 ```
 
 ### Usage
